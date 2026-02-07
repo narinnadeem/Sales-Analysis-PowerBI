@@ -2,11 +2,10 @@
 Strategic Growth & Customer Retention Analysis (Power BI)
 Project Overview
 This project analyzes marketplace data to evaluate business growth, customer behavior, and operational health. The goal was to transform raw data into a strategic dashboard that identifies why the business is scaling rapidly but struggling with long-term profitability.
-+4
+
 
 Data Architecture & Cleaning (ETL)
 Using Power Query, I implemented a robust ETL process to ensure data integrity:
-+2
 
 
 Star Schema Optimization: Developed a schema with orders and order_items as central fact tables connected to dimension tables for customers, products, and geography.
@@ -16,12 +15,12 @@ Localization: Translated product categories from Portuguese to English for inter
 
 
 Data Cleaning: Handled null values in category fields and resolved many-to-many relationship conflicts in geolocation data to ensure 1:N spatial accuracy.
-+1
+
 
 Key Insights
 
 The "Leaky Bucket" Problem: Discovered a repeat purchase rate of effectively 0%, indicating the business is scaling solely through expensive new customer acquisition rather than retention.
-+1
+
 
 
 Revenue Growth: Confirmed a massive scaling phase, with revenue surging from negligible levels in 2016 to a peak of ~Rs 8M in 2018.
